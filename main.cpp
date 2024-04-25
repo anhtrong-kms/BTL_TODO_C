@@ -5,17 +5,7 @@
 #define MAX_NO_TASKS 100
 
 // Khai báo kiểu enum CommandType
-typedef enum {
-    ADD,
-    EDIT,
-    SHOW,
-    DELETE,
-    QUIT,
-    INVALID
-} CommandType;
 
-// Khai báo kiểu enum Status
-typedef enum {
     COMPLETED,
     IN_PROGRESS,
     REMOVED
